@@ -33,3 +33,33 @@ header {
     font-weight: 900;
     line-height: 95px;
 }
+
+/* Main Body */
+.discount {
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    text-align: center;
+    background: #FFF;
+    margin-top: 120px;
+}
+
+.dis-off {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.dis-moto {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.dis-categories {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+.dis-img{
+    fill: url(<path-to-image>), lightgray 50%
+}
