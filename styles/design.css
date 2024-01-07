@@ -47,19 +47,47 @@ header {
     color: #F00;
     font-size: 88px;
     font-weight: 700;
+    margin-bottom: 48px;
 }
 
 .dis-moto {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 16px;
 }
 
 .dis-categories {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
+    margin-bottom: 48px;
 }
-.dis-img{
+
+.dis-img {
     fill: url(<path-to-image>), lightgray 50%
+}
+
+.midnight-party {
+    margin-top: 120px;
+    background-image: url(../resources/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.welcome-party {
+    width: 642px;
+    margin-top: 246px;
+    padding: 126px 552px 126px 298px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    /* 137.5% */
+    letter-spacing: 7.04px;
+}
+.midnight-party.img-24{
+    align-items: center;
 }
