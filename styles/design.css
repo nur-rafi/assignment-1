@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 /* header part */
 header {
     width: 83%;
@@ -79,14 +84,16 @@ header {
     background-image: url(../resources/Vectorrr.png);
     background-repeat: no-repeat;
     justify-content: space-around;
+    
+    box-shadow: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    margin-bottom: 50px;
 }
 
 .welcome-title {
     color: #FFF;
     margin-top: 126px;
     margin-left: 126px;
-    box-shadow: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    ;
+    
 }
 
 .party-title {
@@ -127,13 +134,16 @@ header {
 .ticket {
     width: 83%;
     max-width: 1320px;
-    margin: 100px auto;
+    margin: 150px auto;
     padding-top: 50px;
     text-align: center;
     align-items: center;
+    border-radius: 16px;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 
+
 }
+
 
 .date-time-place {
     font-family: Inter;
@@ -290,6 +300,7 @@ header {
 }
 
 .port-title {
+    margin-top: 20px;
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
@@ -298,6 +309,7 @@ header {
 }
 
 .port-text {
+    margin-top: 20px;
     width: 896px;
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
@@ -356,7 +368,8 @@ header {
     font-weight: 400;
     line-height: 32px;
 }
-form{
+
+form {
     padding-top: 50px;
 }
 
@@ -387,4 +400,72 @@ input[type="submit"] {
     text-transform: capitalize;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
+}
+
+/* footer */
+footer {
+    width: 1900px;
+    height: 609px;
+    background: #070211;
+    background-position: center;
+}
+
+.adress-number {
+    padding: 120px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.adress {
+    padding-left: 140px;
+    width: 375px;
+    height: 80px;
+}
+
+.num-web {
+    padding-right: 275px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.line {
+    margin: 0 140px;
+    width: 1500px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.social {
+    margin: 0 780px;
+}
+
+.rights-unsubscribe {
+    padding: 140px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.rights {
+    padding-left: 140px;
+}
+.btn{
+    padding-right: 275px;
+}
+.un-sub{
+    background: none;
+    color: #FFF;
+    border: none;
+    width: auto;
 }
