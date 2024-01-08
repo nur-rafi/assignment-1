@@ -95,15 +95,17 @@ header {
 
 /*section-3*/
 .ticket {
-    padding: 130px;
+
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background-position: center;
+    padding-top: 100px;
+    margin-left: 140px;
+    margin-right: 140px;
     width: 1320px;
     height: 482px;
     flex-shrink: 0;
-    border-radius: 10px;
-    background: #FF0000, #FF000000;
-    fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-    margin: 130px 0;
-    text-align: center;
 
 }
 
@@ -122,13 +124,13 @@ header {
 }
 
 .red-btn {
-    /* display: inline-flex; */
-    padding: 16px 32px;
     color: #FFF;
-    text-align: center;
-    font-weight: 700;
+    border-color: #F00;
+    background-color: #F00;
+    padding: 16px 32px;
     justify-content: center;
-    gap: 5px;
-    border-radius: 8px;
-    background: #F00;
+    gap: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
