@@ -5,6 +5,10 @@ header {
     margin: 100px auto;
     font-family: 'Merriweather', serif;
     background-image: url(../resources/Banner\ Image.png);
+    /* background-attachment: fixed; */
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
     color: #FFF;
 
 }
@@ -261,14 +265,56 @@ header {
 .fifty-box {
     display: flex;
     margin-top: 50px;
+    height: 662px;
     background-image: url(../resources/Rectangle\ 2.png), url(../resources/Rectangle\ 1.png);
-    background-position: bottom, right;
+    background-position: bottom, right top;
     background-repeat: no-repeat;
 }
 
-.fifty-back {
-    align-items: center;
-    width: 206.841px;
-    height: 206.841px;
+.fifty{
+    margin-top: 100px;
+}
+
+/* Section-6 */
+.portfolio {
+    width: 83%;
+    max-width: 1320px;
+    margin: 100px auto;
+}
+
+.best-gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.port-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.port-text {
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.products{
+    margin-top: 50px;
+}
+.size {
+    width: 424px;
+    height: 450px;
     flex-shrink: 0;
+    padding-right: 13px;
+}
+.first-3{
+    padding-bottom: 15px;
 }
